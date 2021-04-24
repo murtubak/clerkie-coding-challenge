@@ -1,0 +1,166 @@
+h1 {
+  font-family: Arial;
+}
+
+.App {
+  text-align: center;
+}
+
+.website-header {
+  box-shadow: 10px 10px 8px #888888;
+  transform: translateX(-2%);
+  background-color: white;
+  z-index: 1;
+  margin-top: -130px;
+  position: fixed;
+  color: #00d9ff;
+  height: 105px;
+}
+
+.header-left {
+  margin-left: 15px;
+  float: left;
+  animation: animate 4s ease;
+}
+
+.header-right {
+  margin-left: 839px;
+  display: inline-block;
+  animation: fadein 4s ease;
+}
+
+.header-right p {
+  padding: 40px 25px;
+  display: inline-block;
+}
+
+#header-right p {
+  margin: 100px;
+}
+
+@keyframes animate {
+  0% {
+    padding: 500px;
+  }
+  100% {
+    padding: 0px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  height: 60px;
+}
+
+.introduction {
+  color: #00d9ff;
+  margin-top: 130px;
+  height: 100px;
+  position: relative;
+  animation: comeup 4s ease;
+}
+
+.body-background {
+  background-color: #ff9380;
+}
+
+.body {
+  padding: 15px 0px;
+  position: relative;
+}
+
+.body img {
+  position: relative;
+  width: 580px;
+}
+
+.body p {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+.solve-debt {
+  margin-top: 100px;
+  width: 280px;
+  color: #ffffff;
+}
+
+.advice-financial {
+  margin-top: 450px;
+  width: 280px;
+  color: #ffffff;
+}
+
+.loan-powered {
+  margin-top: 800px;
+  width: 280px;
+  color: #ffffff;
+}
+
+@keyframes comeup {
+  0%,
+  15% {
+    height: 1000px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+
+.chat-container {
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -15px;
+  position: fixed;
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    color: #00d9ff;
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.login-header {
+  margin: 0 auto;
+  padding: 0px 98px;
+  width: 320px;
+  color: #00d9ff;
+}
+
+.login-header .logo {
+  margin: 0 auto;
+  padding: 0px 32px;
+}
+
+.get-started {
+  height: 250px;
+}
+
+.get-started h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  color: #00d9ff;
+}
+
+.get-started img {
+  width: 180px;
+}
